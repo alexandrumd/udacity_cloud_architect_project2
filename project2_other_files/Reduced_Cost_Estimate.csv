@@ -1,0 +1,14 @@
+us-east-1;Target a monthly estimate between $6500
+VPC with 80 connections and NAT Gateway with 100 GB processed;2965,44
+S3 20 GB per month;0,56
+3 * EC2 Web servers 3 instances m5.xlarge;421,65
+3 * EC2 App servers 3 instances t3.2xlarge;730,83
+RDS mySQL db.r3.2xlarge 40GB plus replica;1392,68
+Load Balancing;34,23
+CloudFront;5,1
+AWS Support;737,05
+AWS Data transfer out;4,41
+TOTAL;6291,95
+;
+;
+In order to lower the costs the number of connections in the VPC have been lowered to 80. Also, the EC2 instances for Web and App servers have been lowered to 3 instances in total for each category, still ensuring availability across AZs.;

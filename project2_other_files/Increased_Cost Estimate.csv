@@ -1,0 +1,14 @@
+﻿us-east-1;Target a monthly estimate between $18000-$20000
+VPC with 300 connections and NAT Gateway with 200 GB processed;11021
+S3 20 GB per month;0,84
+6 * EC2 Web servers 6 instances m5.4xlarge;3373,08
+6 * EC2 App servers 6 instances t3.2xlarge;1461,66
+RDS mySQL db.r5.2xlarge 60GB multi AZ + replica;2838,48
+Load Balancing;34,23
+CloudFront;5,1
+AWS Support;1176,05
+AWS Data transfer out;4,41
+TOTAL;19914,85
+;
+;
+With the increased budget the VPC connections were increased to ensure functionality of the service in case of high demands. Also the EC2 instances for Web Servers have been upgraded to a higher class in order to be able to serve a higher demand. The RDS type of instance and size have also been increased in order to face a higher load.;
